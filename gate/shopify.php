@@ -266,27 +266,27 @@ $final = trim(strip_tags(getStr($result2, '<use xlink:href="#error" /> </svg><di
 curl_close($ch);
 
 if (strpos($result2, "Thank you john!")) {
-	echo 'CHARGED</span>  </span>CC:  ' . $lista . '</span>  <br>➤ Response: $25 Charged ✅ BY @ccChecker_scripts<br> ➤ Gate : Shopify gateway <br>';
+	echo 'CHARGED</span>  </span>CC:  ' . $lista . '</span>  <br>➤ Response: $25 Charged ✅ BY @balenottere<br> ➤ Gate : Shopify gateway <br>';
 } elseif (strpos($result2, "Your order is confirmed")) {
-	echo 'CHARGED</span>  </span>CC:  ' . $lista . '</span>  <br>➤ Response: $25 Charged ✅ BY @ccChecker_scripts<br> ➤ Gate : Shopify gateway <br>';
+	echo 'CHARGED</span>  </span>CC:  ' . $lista . '</span>  <br>➤ Response: $25 Charged ✅ BY @balenottere<br> ➤ Gate : Shopify gateway <br>';
 } elseif (strpos($result2, "Thank you for your purchase!")) {
-	echo 'CHARGED</span>  </span>CC:  ' . $lista . '</span>  <br>➤ Response: $25 Charged ✅ BY @ccChecker_scripts<br> ➤ Gate : Shopify gateway <br>';
+	echo 'CHARGED</span>  </span>CC:  ' . $lista . '</span>  <br>➤ Response: $25 Charged ✅ BY @balenottere<br> ➤ Gate : Shopify gateway <br>';
 } elseif (strpos($result2, 'Security code was not matched by the processor')) {
-	echo 'CCN</span>  </span>CC:  ' . $lista . '</span>  <br>Result: Security code is incorrect ✅ BY @ccChecker_scripts</span><br> ➤ Gate : Shopify gateway<br>';
+	echo 'CCN</span>  </span>CC:  ' . $lista . '</span>  <br>Result: Security code is incorrect ✅ BY @balenottere</span><br> ➤ Gate : Shopify gateway<br>';
 } elseif (strpos($result2, 'Security codes does not match correct')) {
-	echo 'CCN</span>  </span>CC:  ' . $lista . '</span>  <br>Result: Security code is incorrect ✅ BY @ccChecker_scripts</span><br> ➤ Gate : Shopify gateway<br>';
+	echo 'CCN</span>  </span>CC:  ' . $lista . '</span>  <br>Result: Security code is incorrect ✅ BY @balenottere</span><br> ➤ Gate : Shopify gateway<br>';
 } elseif (strpos($result2, 'Invalid card verification number')) {
-	echo 'CCN</span>  </span>CC:  ' . $lista . '</span>  <br>Result: Security code is incorrect ✅ BY @ccChecker_scripts</span><br> ➤ Gate : Shopify gateway<br>';
+	echo 'CCN</span>  </span>CC:  ' . $lista . '</span>  <br>Result: Security code is incorrect ✅ BY @balenottere</span><br> ➤ Gate : Shopify gateway<br>';
 } elseif (strpos($result2, "Street address and postal code do not match")) {
-	echo 'CVV</span>  </span>CC:  ' . $lista . '</span>  <br>Result: Street address and postal code do not match ✅[MISMATCH] BY @ccChecker_scripts</span><br> ➤ Gate : Shopify gateway <br>';
+	echo 'CVV</span>  </span>CC:  ' . $lista . '</span>  <br>Result: Street address and postal code do not match ✅[MISMATCH] BY @balenottere</span><br> ➤ Gate : Shopify gateway <br>';
 } elseif (strpos($result2, "insufficient_funds")) {
-	echo 'CVV</span>  </span>CC:  ' . $lista . '</span>  <br>Result: INSUFFICIENT FUNDS ✅ BY @ccChecker_scripts</span><br>➤ Gate : Shopify gateway<br>';
+	echo 'CVV</span>  </span>CC:  ' . $lista . '</span>  <br>Result: INSUFFICIENT FUNDS ✅ BY @balenottere</span><br>➤ Gate : Shopify gateway<br>';
 } elseif (strpos($result2, "Insufficient funds")) {
-	echo 'CVV</span>  </span>CC:  ' . $lista . '</span>  <br>Result: INSUFFICIENT FUNDS ✅ BY @ccChecker_scripts</span><br>➤ Gate : Shopify gateway<br>';
+	echo 'CVV</span>  </span>CC:  ' . $lista . '</span>  <br>Result: INSUFFICIENT FUNDS ✅ BY @balenotteres</span><br>➤ Gate : Shopify gateway<br>';
 } elseif (strpos($result2, "incorrect_cvc")) {
-	echo 'CCN</span>  </span>CC:  ' . $lista . '</span>  <br>Result: Security code is incorrect ✅ BY @ccChecker_scripts</span><br>➤ Gate : Shopify gateway<br>';
+	echo 'CCN</span>  </span>CC:  ' . $lista . '</span>  <br>Result: Security code is incorrect ✅ BY @balenottere</span><br>➤ Gate : Shopify gateway<br>';
 } else {
-	echo 'DEAD</span> CC:  ' . $lista . '</span>  <br> Result: ' . $final . ' ❌ BY @ccChecker_scripts </span><br> ➤ Gate : Shopify gateway<br>';
+	echo 'DEAD</span> CC:  ' . $lista . '</span>  <br> Result: ' . $final . ' ❌ BY @balenottere </span><br> ➤ Gate : Shopify gateway<br>';
 }
 curl_close($ch);
 ob_flush();
