@@ -203,10 +203,10 @@ if(isset($_POST['but_logout'])){
 					          <select name="gate" id="gate" class="form-control" style="margin-bottom: 5px;"
 							  <option </option>
                  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/shopify.php">shopify</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/br.php">b3(usd)</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/eur1ccn.php">𝒄𝒄𝒏 0.5$</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/eur10ccn.php">𝒄𝒄𝒏 𝟏𝟎€</option>
-                 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/usd1cvv.php">𝐜𝐯𝐯 𝟏$</option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/br.php">b3</option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="">$</option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="">€</option>
+                 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/usd1cvv.php"></option>
 </select>
 	<br>										
 					<button class="btn btn-play  btn-bg-gradient text-white" style="width: 45%; float: left; "><i class="fa fa-play" style="margin-right: 3px;"></i>𝒄𝒉𝒌 </button>
