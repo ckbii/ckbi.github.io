@@ -203,7 +203,7 @@ if(isset($_POST['but_logout'])){
 					          <select name="gate" id="gate" class="form-control" style="margin-bottom: 5px;"
 							  <option </option>
                  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/shopify.php">𝒄𝒄𝒏 𝟏$ (usd)</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/usd10ccn.php">𝒄𝒄𝒏 𝟏𝟎$ (usd)</option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/br.php">𝒄𝒄𝒏 𝟏𝟎$ (usd)</option>
 				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/eur1ccn.php">𝒄𝒄𝒏 0.5$</option>
 				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/eur10ccn.php">𝒄𝒄𝒏 𝟏𝟎€</option>
                  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/usd1cvv.php">𝐜𝐯𝐯 𝟏$</option>
