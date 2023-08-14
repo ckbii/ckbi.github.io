@@ -203,10 +203,7 @@ if(isset($_POST['but_logout'])){
 					          <select name="gate" id="gate" class="form-control" style="margin-bottom: 5px;"
 							  <option </option>
                  <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/shopify.php">shopify</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/br.php">b3</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="">$</option>
-				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="">€</option>
-                 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/usd1cvv.php"></option>
+				 <option style="background:rgba(165, 154, 154, 0.281);color:rgb(255, 208, 0);color:black" value="gate/br.php">b3 not workinbg</option>
 </select>
 	<br>										
 					<button class="btn btn-play  btn-bg-gradient text-white" style="width: 45%; float: left; "><i class="fa fa-play" style="margin-right: 3px;"></i>𝒄𝒉𝒌 </button>
