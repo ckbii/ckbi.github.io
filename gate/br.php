@@ -131,7 +131,7 @@ curl_setopt($ch, CURLOPT_PROXY, $poxySocks5);
 curl_setopt($ch, CURLOPT_URL, 'https://payments.braintree-api.com/graphql');
 curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
 curl_setopt($ch, CURLOPT_HEADER, 0);
-curl_setopt($ch, CURLOPT_HTTPHEADER, array:
+curl_setopt($ch, CURLOPT_HTTPHEADER, array,
 'Accept: */*',
 'Accept-Language: en-US,en;q=0.9',
 'Authorization: ...',
