@@ -1,6 +1,9 @@
 <?php
 
 
+
+require 'function.php';
+
 error_reporting(0);
 date_default_timezone_set('Asia/Jakarta');
 
@@ -128,8 +131,8 @@ curl_setopt($ch, CURLOPT_PROXY, $poxySocks5);
 curl_setopt($ch, CURLOPT_URL, 'https://payments.braintree-api.com/graphql');
 curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
 curl_setopt($ch, CURLOPT_HEADER, 0);
-curl_setopt($ch, CURLOPT_HTTPHEADER, array()
-'Accept: *)*',
+curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+'Accept: */*',
 'Accept-Language: en-US,en;q=0.9',
 'Authorization: ...',
 'Braintree-Version: ...',
@@ -141,7 +144,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array()
 'Sec-Fetch-Dest: empty',
 'Sec-Fetch-Mode: cors',
 'Sec-Fetch-Site: cross-site',
-'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
+'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',));
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
@@ -183,6 +186,7 @@ curl_setopt($ch, CURLOPT_COOKIEJAR, getcwd().'/cookie.txt');
 'sec-fetch-site: same-origin',
 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36',
 'x-requested-with: XMLHttpRequest',
+));
 curl_setopt($ch, CURLOPT_POSTFIELDS,'#');
 $result2 = curl_exec($ch);
 $info = curl_getinfo($ch);
