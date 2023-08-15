@@ -1,10 +1,6 @@
 <?php
 
 
-
-require 'function.php';
-
-error_reporting(0);
 date_default_timezone_set('Asia/Jakarta');
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
